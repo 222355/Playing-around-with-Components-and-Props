@@ -8,8 +8,8 @@ import imageData from "./components/ImageData";
 function App() {
   return (
     <div>
+      {/* Header Section */}
       <GallaryHeader />
-
       <ImageGallary imageData={imageData} />
       {/* adding footer component */}
       <GallaryFooter />
